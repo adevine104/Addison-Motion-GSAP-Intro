@@ -1,35 +1,48 @@
+
+
 import {gsap} from "gsap";
 
 
-//TweenMax.to(".red-box",2,{x: 500, borderRadius: "50px" });
-//TweenLite.to(".red-box",2,{x: 500, borderRadius: "50px" });
+var smileySpeed = .8;
 
-var redSpeed = 2;
-// var blueSpeed = 1.5;
+var tl = gsap.timeline({repeat: 1, repeatDelay: .05});
 
 
-// gsap call / what do you want to animate / how long should it animate / what should change?
-gsap.to(".red-box", {
-    duration: redSpeed,
-    x: 500
+tl.to(".smiley-face", {
+    duration: smileySpeed,
+    y: -50,
+    scaleX:1
 });
 
-gsap.to(".red-box", {
-    duration: redSpeed,
-    y: 500
-    // delay: redSpeed
+tl.to(".smiley-face", {
+    duration: .5,
+    y: 360,
+    x: 405,
+    scaleX: 1.2
 });
 
-// gsap.from(".blue-box", {
-//     duration: blueSpeed,
-//     x: 300,
-//     y: 300,
-//     borderRadius: "50px"
-// });
+tl.to(".smiley-face", {
+    duration: smileySpeed,
+    y: -50,
+    scaleX:1
+});
 
-// gsap.to(".blue-box", {
-//     duration: blueSpeed,
-//     y: 100,
-//     borderRadius: "200px",
-//     delay: blueSpeed
-// });
+tl.to(".smiley-face", {
+    duration: .5,
+    y: 360,
+    x: 405,
+    scaleX: 1.2
+});
+
+tl.to(".smiley-face", {
+    duration: smileySpeed,
+    y: -50,
+    scaleX:1
+});
+
+tl.to(".smiley-face", {
+    duration: .5,
+    y: 360,
+    x: 405,
+    scaleX: 1.2
+});

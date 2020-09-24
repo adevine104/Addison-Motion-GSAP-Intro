@@ -1,8 +1,39 @@
 <section>
     <div>
-        <!-- <div class="blue-box box"></div> -->
-        <div class="red-box box"></div>
 
-       
+          <svg class="box" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-65 -390 800 800">
+            <defs>
+              <filter x="-12.3%" y="-77%" width="124.6%" height="260.7%" filterUnits="objectBoundingBox" id="filter-2">
+                <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+                <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+                <feGaussianBlur stdDeviation="14.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowBlurOuter1"/>
+              </filter>
+              <filter x="-15.4%" y="-15.6%" width="130.8%" height="131.1%" filterUnits="objectBoundingBox" id="filter-3">
+                <feGaussianBlur stdDeviation="11" in="SourceGraphic"/>
+              </filter>
+              <filter x="-72.2%" y="-76.5%" width="244.4%" height="252.9%" filterUnits="objectBoundingBox" id="filter-4">
+                <feGaussianBlur stdDeviation="26" in="SourceGraphic"/>
+              </filter>
+              <ellipse id="path-1" cx="578" cy="686.5" rx="199" ry="30.5"/>
+            </defs>
+
+            <g id="Imagemaking" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Artboard" transform="translate(-349 -338)">
+                <use filter="url(#filter-2)" xlink:href="#path-1" id="shadow" fill="#000" fill-opacity="1"/>
+                <g class="smiley-face"id="yellow+highlights" transform="translate(420 382)">
+                  <circle id="Oval" fill="#FCCA41" cx="159" cy="158" r="158"/>
+                  <path d="M7.59 97c5.983 38.516 11.616 64.88 16.898 79.095 10.254 27.593 28.774 54.079 39.008 64.825 19.699 20.684 34.976 30.297 55.078 40.195 44.34 21.835 87.958 19.547 94.382 19.547 13.866 0-54.447 17.097-101.175 2.327-25.751-8.14-44.556-18.663-71.243-45.994-17.57-17.993-32.948-50.529-36.718-69.54C-1.242 161.937.015 131.785 7.59 97z" id="Path-3" fill-opacity=".25" fill="#000" filter="url(#filter-3)"/>
+                  <path d="M74 212c57.434 46.406 112.434 46.406 165 0" id="smile" stroke="#000" stroke-width="17"/>
+                  <g id="eyes" transform="translate(74 85)" fill="#000" fill-opacity=".85">
+                    <ellipse id="Oval" cx="26" cy="36.5" rx="26" ry="36.5"/>
+                    <ellipse id="Oval" cx="139" cy="36.5" rx="26" ry="36.5"/>
+                  </g>
+                  <ellipse id="Oval" fill-opacity=".8" fill="#FFF" filter="url(#filter-4)" cx="226" cy="85" rx="54" ry="51"/>
+                </g>
+              </g>
+            </g>
+          </svg>
+
     </div>
 </section>
