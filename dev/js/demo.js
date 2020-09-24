@@ -5,7 +5,7 @@ import {gsap} from "gsap";
 
 var smileySpeed = .8;
 
-var tl = gsap.timeline({repeat: 1, repeatDelay: .05});
+var tl = gsap.timeline({repeat: -1, repeatDelay: .05});
 
 
 tl.to(".smiley-face", {
