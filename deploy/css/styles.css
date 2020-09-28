@@ -427,7 +427,59 @@ textarea {
     Demo
 ============= */
 .box {
-  height: 400px;
-  width: 400px;
-  margin: 200px 0 0 200px;
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+  margin: 330px 0 0 200px;
+  z-index: 1000;
+}
+
+#smiley-face {
+  position: relative;
+  background-color: #f3da1b;
+}
+
+.smiley-face-eyes {
+  background-color: black;
+  height: 90px;
+  width: 60px;
+}
+
+#smiley-eye1 {
+  position: absolute;
+  margin: -280px 280px;
+}
+
+#smiley-eye2 {
+  position: relative;
+  margin: -280px 410px;
+}
+
+#smiley-mouth {
+  margin: 290px 285px;
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  background-color: #f3da1b;
+  border-radius: 100%;
+  border-bottom: solid 35px #000;
+  bottom: 30px;
+}
+
+#smiley-highlight {
+  position: absolute;
+  background: radial-gradient(#f7f2c8, transparent, transparent);
+  height: 250px;
+  width: 240px;
+  transform: rotate(-40deg);
+  margin: 100px 360px;
+}
+
+#smiley-floor-shadow {
+  position: absolute;
+  background: radial-gradient(#414141, transparent, transparent);
+  height: 180px;
+  width: 580px;
+  margin: -310px 80px;
+  z-index: 10;
 }

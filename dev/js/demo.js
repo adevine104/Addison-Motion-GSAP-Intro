@@ -8,41 +8,45 @@ var smileySpeed = .8;
 var tl = gsap.timeline({repeat: -1, repeatDelay: .05});
 
 
-tl.to(".smiley-face", {
-    duration: smileySpeed,
-    y: -50,
+tl.to(".box", {
+    duration: .03,
+    y: 0,
     scaleX:1
 });
 
-tl.to(".smiley-face", {
+tl.to(".box", {
     duration: .5,
-    y: 360,
-    x: 405,
-    scaleX: 1.2
+    y: -360,
+    scaleX: 1
 });
 
-tl.to(".smiley-face", {
+tl.to(".box", {
     duration: smileySpeed,
-    y: -50,
-    scaleX:1
+    y: 0,
+    scaleX:1.2
 });
 
-tl.to(".smiley-face", {
+tl.to(".box", {
     duration: .5,
-    y: 360,
-    x: 405,
-    scaleX: 1.2
+    y: -360,
+    scaleX: 1
 });
 
-tl.to(".smiley-face", {
+tl.to(".box", {
     duration: smileySpeed,
-    y: -50,
-    scaleX:1
+    y: 0,
+    scaleX:1.2
 });
 
-tl.to(".smiley-face", {
+tl.to(".box", {
     duration: .5,
-    y: 360,
-    x: 405,
-    scaleX: 1.2
+    y: -360,
+    scaleX: 1
+});
+
+
+tl.to(".box", {
+    duration: smileySpeed,
+    y: 0,
+    scaleX:1.2
 });
