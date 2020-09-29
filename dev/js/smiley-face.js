@@ -1,5 +1,6 @@
 import {gsap} from "gsap";
 import {smileySpeed} from "./animationSpeed.js"
+import {smileySpeed2} from "./animationSpeed.js"
 
 export function smileyAnimation(){
 
@@ -13,7 +14,7 @@ export function smileyAnimation(){
     });
 
     tl.to(".box", {
-        duration: .5,
+        duration: smileySpeed2,
         y: -360,
         scaleX: 1
     });
@@ -25,7 +26,7 @@ export function smileyAnimation(){
     });
 
     tl.to(".box", {
-        duration: .5,
+        duration: smileySpeed2,
         y: -360,
         scaleX: 1
     });
@@ -37,7 +38,7 @@ export function smileyAnimation(){
     });
 
     tl.to(".box", {
-        duration: .5,
+        duration: smileySpeed2,
         y: -360,
         scaleX: 1
     });

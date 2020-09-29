@@ -5,13 +5,14 @@
 import {gsap} from "gsap";
 
 import {smileyAnimation} from "./smiley-face.js"
-// import {blueBoxAnimation} from "./blueBox.js"
+import {shadowAnimation} from "./floor-shadow.js"
 
 
 const mainTL = gsap.timeline({paused:true});
 
-    mainTL.add(smileyAnimation())
-        //.addLabel("orange")
-        // .add(orangeBoxAnimation())
+    mainTL.add(smileyAnimation(),"startAll")
+        .add(shadowAnimation(),"startAll")
         .play();
+
+
 
